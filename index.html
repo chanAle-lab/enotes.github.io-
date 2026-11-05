@@ -188,7 +188,7 @@ function card(x) {
     <p>${esc(x.summary)}</p>
     <div class="tags">${tags}</div>
     <img class="shot" loading="lazy" src="${esc(x.image)}" alt="Screenshot of question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper. ${esc(x.summary)}">
-    ${(x.figures || []).map(f => `<details><summary>${f.includes('datasheet') ? 'Mineral data sheet' : 'Figures for this question'}</summary><img class="shot" loading="lazy" src="${esc(f)}" alt="${f.includes('datasheet') ? 'Mineral data sheet from the 2016 paper' : 'Figures for question ' + esc(x.question) + ' from the ' + p.year + ' ' + esc(p.series) + ' paper'}"></details>`).join('')}
+    ${(x.figures || []).map(f => `<details><summary>${f.includes('datasheet') ? 'Mineral data sheet' : 'Figures for this question'}</summary><img class="shot" loading="lazy" src="${esc(f)}" alt="${f.includes('datasheet') ? 'Mineral data sheet' : 'Figures for question ' + esc(x.question) + ' from the ' + p.year + ' ' + esc(p.series) + ' paper'}"></details>`).join('')}
     ${x.markscheme ? `<details><summary>Show mark scheme</summary><img class="shot" loading="lazy" src="${esc(x.markscheme)}" alt="Mark scheme for question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper"></details>` : ''}
   </article>`;
 }

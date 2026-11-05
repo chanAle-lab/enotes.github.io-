@@ -58,6 +58,17 @@
       "spec": "legacy",
       "totalMarks": 60,
       "duration": "1 hour"
+    },
+    {
+      "id": "2017-summer-gl1",
+      "year": 2017,
+      "series": "Summer",
+      "date": "2017-05-15",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
     }
   ],
   "questions": [
@@ -542,6 +553,502 @@
         "img/2016-summer-gl1/fig-q4c.jpg"
       ],
       "markscheme": "img/2016-summer-gl1/ms-q4cii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q1ai",
+      "paper": "2017-summer-gl1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Identify two plate tectonic features (A and B) from a list, using a map and cross-section of the Tonga region.",
+      "image": "img/2017-summer-gl1/q1ai.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q1aii",
+      "paper": "2017-summer-gl1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Describe the pattern of earthquake foci shown in a cross-section.",
+      "image": "img/2017-summer-gl1/q1aii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q1aiii",
+      "paper": "2017-summer-gl1",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain why earthquakes occur at this plate tectonic setting.",
+      "image": "img/2017-summer-gl1/q1aiii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q1bi",
+      "paper": "2017-summer-gl1",
+      "question": "1(b)(i)",
+      "marks": 3,
+      "page": 4,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Describe and explain the difference in heat flow at two points on a cross-section.",
+      "image": "img/2017-summer-gl1/q1bi.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q1bii",
+      "paper": "2017-summer-gl1",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Suggest one possible cause of the plate movement shown by arrows on the cross-section.",
+      "image": "img/2017-summer-gl1/q1bii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q1biii",
+      "paper": "2017-summer-gl1",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 5,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Use the variation in heat flow to explain why the Pacific plate is subducted beneath the Indo-Australian plate, given that both are oceanic.",
+      "image": "img/2017-summer-gl1/q1biii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q1biii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q1biv",
+      "paper": "2017-summer-gl1",
+      "question": "1(b)(iv)",
+      "marks": 3,
+      "page": 5,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain the origin of the andesitic magma beneath a volcanic island arc.",
+      "image": "img/2017-summer-gl1/q1biv.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q1biv.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q2a",
+      "paper": "2017-summer-gl1",
+      "question": "2(a)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Complete a grain size distribution bar chart for a better-sorted sand, using the information given.",
+      "image": "img/2017-summer-gl1/q2a.jpg",
+      "figures": [],
+      "markscheme": "img/2017-summer-gl1/ms-q2a.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q2bi",
+      "paper": "2017-summer-gl1",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name a mineral in a sand drawing from its properties, using the mineral data sheet.",
+      "image": "img/2017-summer-gl1/q2bi.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q2.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q2bii",
+      "paper": "2017-summer-gl1",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the texture of a sand shown in a drawing.",
+      "image": "img/2017-summer-gl1/q2bii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q2biii",
+      "paper": "2017-summer-gl1",
+      "question": "2(b)(iii)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.1",
+        "1.1"
+      ],
+      "skills": [],
+      "summary": "Explain the difference in shape between feldspar grains and quartz grains in the sand.",
+      "image": "img/2017-summer-gl1/q2biii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q2.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q2biii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q2biv",
+      "paper": "2017-summer-gl1",
+      "question": "2(b)(iv)",
+      "marks": 1,
+      "page": 7,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Choose the most appropriate rock name if the sand were lithified (tick-box list).",
+      "image": "img/2017-summer-gl1/q2biv.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q2biv.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q2bv",
+      "paper": "2017-summer-gl1",
+      "question": "2(b)(v)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Evaluate the evidence in the drawing that supports a fluvial depositional environment.",
+      "image": "img/2017-summer-gl1/q2bv.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q2bv.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q3ai",
+      "paper": "2017-summer-gl1",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the fossil groups of two fossils shown in photographs.",
+      "image": "img/2017-summer-gl1/q3ai.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q3aii",
+      "paper": "2017-summer-gl1",
+      "question": "3(a)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "3.1",
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Describe the depositional environment of a limestone from a coral photograph, giving reasons.",
+      "image": "img/2017-summer-gl1/q3aii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q3aiii",
+      "paper": "2017-summer-gl1",
+      "question": "3(a)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why one fossil is more useful than another for relative dating.",
+      "image": "img/2017-summer-gl1/q3aiii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q3bi",
+      "paper": "2017-summer-gl1",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Define the term metamorphic aureole.",
+      "image": "img/2017-summer-gl1/q3bi.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q3bii",
+      "paper": "2017-summer-gl1",
+      "question": "3(b)(ii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Choose the locality on a map where spotted rock is most likely to be found, with reasons.",
+      "image": "img/2017-summer-gl1/q3bii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q3c",
+      "paper": "2017-summer-gl1",
+      "question": "3(c)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw the texture of a metamorphic rock on a scaled circle, given its mean crystal size.",
+      "image": "img/2017-summer-gl1/q3c.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q3c.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q4ai",
+      "paper": "2017-summer-gl1",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the angle and direction of dip of the beds below a boundary on a cross-section.",
+      "image": "img/2017-summer-gl1/q4ai.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q4aii",
+      "paper": "2017-summer-gl1",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the type of geological boundary shown (tick-box list).",
+      "image": "img/2017-summer-gl1/q4aii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q4aiii",
+      "paper": "2017-summer-gl1",
+      "question": "4(a)(iii)",
+      "marks": 1,
+      "page": 11,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Mark an overturned bed on the cross-section.",
+      "image": "img/2017-summer-gl1/q4aiii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q4aiv",
+      "paper": "2017-summer-gl1",
+      "question": "4(a)(iv)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "3.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State two pieces of evidence from the cross-section that some beds are overturned.",
+      "image": "img/2017-summer-gl1/q4aiv.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q4aiv.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q4bi",
+      "paper": "2017-summer-gl1",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Draw the position of the fold axis on the cross-section.",
+      "image": "img/2017-summer-gl1/q4bi.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q4bii",
+      "paper": "2017-summer-gl1",
+      "question": "4(b)(ii)",
+      "marks": 3,
+      "page": 12,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Select the main characteristics of the fold from tick-box options (type, axial plane strike and symmetry).",
+      "image": "img/2017-summer-gl1/q4bii.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q4c",
+      "paper": "2017-summer-gl1",
+      "question": "4(c)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the type of igneous body formed by a basalt and give a reason.",
+      "image": "img/2017-summer-gl1/q4c.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q4c.jpg"
+    },
+    {
+      "id": "2017-summer-gl1-q4d",
+      "paper": "2017-summer-gl1",
+      "question": "4(d)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Evaluate a student’s conclusions about the age and type of a fault.",
+      "image": "img/2017-summer-gl1/q4d.jpg",
+      "figures": [
+        "img/2017-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2017-summer-gl1/ms-q4d.jpg"
     }
   ]
 }
