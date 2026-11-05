@@ -1,18 +1,51 @@
 {
   "topics": [
-    { "id": "1.1", "name": "Elements, minerals and rocks" },
-    { "id": "2.1", "name": "Sedimentary rocks and surface processes" },
-    { "id": "2.2", "name": "Igneous and metamorphic rocks" },
-    { "id": "2.3", "name": "Deformation, folds, faults and geological maps" },
-    { "id": "3.1", "name": "Present-day processes and fossils" },
-    { "id": "3.2", "name": "Relative and absolute time" },
-    { "id": "4.1", "name": "Earth structure" },
-    { "id": "4.2", "name": "Global tectonics" }
+    {
+      "id": "1.1",
+      "name": "Elements, minerals and rocks"
+    },
+    {
+      "id": "2.1",
+      "name": "Sedimentary rocks and surface processes"
+    },
+    {
+      "id": "2.2",
+      "name": "Igneous and metamorphic rocks"
+    },
+    {
+      "id": "2.3",
+      "name": "Deformation, folds, faults and geological maps"
+    },
+    {
+      "id": "3.1",
+      "name": "Present-day processes and fossils"
+    },
+    {
+      "id": "3.2",
+      "name": "Relative and absolute time"
+    },
+    {
+      "id": "4.1",
+      "name": "Earth structure"
+    },
+    {
+      "id": "4.2",
+      "name": "Global tectonics"
+    }
   ],
   "skills": [
-    { "id": "maths", "name": "Maths skills" },
-    { "id": "practical", "name": "Practical skills" },
-    { "id": "map", "name": "Map, section and block diagram work" }
+    {
+      "id": "maths",
+      "name": "Maths skills"
+    },
+    {
+      "id": "practical",
+      "name": "Practical skills"
+    },
+    {
+      "id": "map",
+      "name": "Map, section and block diagram work"
+    }
   ],
   "papers": [
     {
@@ -24,9 +57,7 @@
       "unit": "GL1 Foundation Unit",
       "spec": "legacy",
       "totalMarks": 60,
-      "duration": "1 hour",
-      "paper": "papers/2016-summer-gl1-qp.pdf",
-      "markscheme": "papers/2016-summer-gl1-ms.pdf"
+      "duration": "1 hour"
     }
   ],
   "questions": [
@@ -36,9 +67,19 @@
       "question": "1(a)(i)",
       "marks": 2,
       "page": 3,
-      "topics": ["1.1"],
-      "skills": ["practical"],
-      "summary": "Name two minerals in a sandstone photomicrograph using the mineral data sheet."
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name two minerals in a sandstone photomicrograph using the mineral data sheet.",
+      "image": "img/2016-summer-gl1/q1ai.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q1.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q1ai.jpg"
     },
     {
       "id": "2016-summer-gl1-q1aii",
@@ -46,9 +87,18 @@
       "question": "1(a)(ii)",
       "marks": 3,
       "page": 3,
-      "topics": ["2.1"],
-      "skills": ["practical"],
-      "summary": "Describe the texture of the sandstone in the photomicrograph."
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the texture of the sandstone in the photomicrograph.",
+      "image": "img/2016-summer-gl1/q1aii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q1aii.jpg"
     },
     {
       "id": "2016-summer-gl1-q1aiii",
@@ -56,9 +106,16 @@
       "question": "1(a)(iii)",
       "marks": 1,
       "page": 3,
-      "topics": ["2.1"],
+      "topics": [
+        "2.1"
+      ],
       "skills": [],
-      "summary": "Choose the most appropriate name for the sandstone from a tick-box list."
+      "summary": "Choose the most appropriate name for the sandstone from a tick-box list.",
+      "image": "img/2016-summer-gl1/q1aiii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q1aiii.jpg"
     },
     {
       "id": "2016-summer-gl1-q1b",
@@ -66,9 +123,19 @@
       "question": "1(b)",
       "marks": 3,
       "page": 3,
-      "topics": ["3.2", "2.3"],
-      "skills": ["map"],
-      "summary": "Give three pieces of evidence from a cliff section about the age relationships of the rock units."
+      "topics": [
+        "3.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Give three pieces of evidence from a cliff section about the age relationships of the rock units.",
+      "image": "img/2016-summer-gl1/q1b.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q1b.jpg"
     },
     {
       "id": "2016-summer-gl1-q1ci",
@@ -76,9 +143,16 @@
       "question": "1(c)(i)",
       "marks": 3,
       "page": 4,
-      "topics": ["2.2"],
+      "topics": [
+        "2.2"
+      ],
       "skills": [],
-      "summary": "Describe three likely differences between rock in a metamorphic aureole and the unaltered sandstone."
+      "summary": "Describe three likely differences between rock in a metamorphic aureole and the unaltered sandstone.",
+      "image": "img/2016-summer-gl1/q1ci.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q1ci.jpg"
     },
     {
       "id": "2016-summer-gl1-q1cii",
@@ -86,9 +160,16 @@
       "question": "1(c)(ii)",
       "marks": 3,
       "page": 4,
-      "topics": ["2.2"],
+      "topics": [
+        "2.2"
+      ],
       "skills": [],
-      "summary": "Explain the differences identified in part (c)(i)."
+      "summary": "Explain the differences identified in part (c)(i).",
+      "image": "img/2016-summer-gl1/q1cii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q1cii.jpg"
     },
     {
       "id": "2016-summer-gl1-q2ai",
@@ -96,9 +177,18 @@
       "question": "2(a)(i)",
       "marks": 1,
       "page": 7,
-      "topics": ["4.1"],
-      "skills": ["maths"],
-      "summary": "State which seismic wave, P or S, travels fastest, using time/distance curves."
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "State which seismic wave, P or S, travels fastest, using time/distance curves.",
+      "image": "img/2016-summer-gl1/q2ai.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q2ai.jpg"
     },
     {
       "id": "2016-summer-gl1-q2aii",
@@ -106,9 +196,18 @@
       "question": "2(a)(ii)",
       "marks": 1,
       "page": 7,
-      "topics": ["4.1"],
-      "skills": ["maths"],
-      "summary": "Read an epicentre distance from a time/distance graph given an S wave arrival time."
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Read an epicentre distance from a time/distance graph given an S wave arrival time.",
+      "image": "img/2016-summer-gl1/q2aii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q2aii.jpg"
     },
     {
       "id": "2016-summer-gl1-q2bi",
@@ -116,9 +215,18 @@
       "question": "2(b)(i)",
       "marks": 3,
       "page": 7,
-      "topics": ["4.1"],
-      "skills": ["maths"],
-      "summary": "Describe how P wave velocity changes from the surface to 670 km depth."
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Describe how P wave velocity changes from the surface to 670 km depth.",
+      "image": "img/2016-summer-gl1/q2bi.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q2bi.jpg"
     },
     {
       "id": "2016-summer-gl1-q2bii",
@@ -126,9 +234,16 @@
       "question": "2(b)(ii)",
       "marks": 2,
       "page": 7,
-      "topics": ["4.1"],
+      "topics": [
+        "4.1"
+      ],
       "skills": [],
-      "summary": "State the effect of density and rigidity on P wave velocity (tick-box table)."
+      "summary": "State the effect of density and rigidity on P wave velocity (tick-box table).",
+      "image": "img/2016-summer-gl1/q2bii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q2bii.jpg"
     },
     {
       "id": "2016-summer-gl1-q2biii",
@@ -136,9 +251,19 @@
       "question": "2(b)(iii)",
       "marks": 3,
       "page": 7,
-      "topics": ["4.1", "4.2"],
-      "skills": ["maths"],
-      "summary": "Draw and label three Earth boundaries on a velocity-depth graph."
+      "topics": [
+        "4.1",
+        "4.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Draw and label three Earth boundaries on a velocity-depth graph.",
+      "image": "img/2016-summer-gl1/q2biii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q2biii.jpg"
     },
     {
       "id": "2016-summer-gl1-q2ci",
@@ -146,9 +271,18 @@
       "question": "2(c)(i)",
       "marks": 3,
       "page": 8,
-      "topics": ["4.1"],
-      "skills": ["maths"],
-      "summary": "Describe what happens to P and S waves at 2900 km depth using the velocity-depth graph."
+      "topics": [
+        "4.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Describe what happens to P and S waves at 2900 km depth using the velocity-depth graph.",
+      "image": "img/2016-summer-gl1/q2ci.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q2ci.jpg"
     },
     {
       "id": "2016-summer-gl1-q2cii",
@@ -156,9 +290,16 @@
       "question": "2(c)(ii)",
       "marks": 3,
       "page": 8,
-      "topics": ["4.1"],
+      "topics": [
+        "4.1"
+      ],
       "skills": [],
-      "summary": "Explain why P and S waves change at 2900 km depth."
+      "summary": "Explain why P and S waves change at 2900 km depth.",
+      "image": "img/2016-summer-gl1/q2cii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q2cii.jpg"
     },
     {
       "id": "2016-summer-gl1-q3ai",
@@ -166,9 +307,18 @@
       "question": "3(a)(i)",
       "marks": 2,
       "page": 10,
-      "topics": ["2.3"],
-      "skills": ["map"],
-      "summary": "State the dip direction and angle of a bed from a cliff cross-section."
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the dip direction and angle of a bed from a cliff cross-section.",
+      "image": "img/2016-summer-gl1/q3ai.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q3ai.jpg"
     },
     {
       "id": "2016-summer-gl1-q3aii",
@@ -176,9 +326,19 @@
       "question": "3(a)(ii)",
       "marks": 2,
       "page": 10,
-      "topics": ["3.2", "2.3"],
-      "skills": ["map"],
-      "summary": "Explain one piece of evidence from the section showing the sequence is not overturned."
+      "topics": [
+        "3.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Explain one piece of evidence from the section showing the sequence is not overturned.",
+      "image": "img/2016-summer-gl1/q3aii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q3aii.jpg"
     },
     {
       "id": "2016-summer-gl1-q3b",
@@ -186,9 +346,18 @@
       "question": "3(b)",
       "marks": 2,
       "page": 11,
-      "topics": ["2.3"],
-      "skills": ["map"],
-      "summary": "Name the type of fault in the section and give a reason."
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Name the type of fault in the section and give a reason.",
+      "image": "img/2016-summer-gl1/q3b.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q3b.jpg"
     },
     {
       "id": "2016-summer-gl1-q3ci",
@@ -196,9 +365,18 @@
       "question": "3(c)(i)",
       "marks": 1,
       "page": 11,
-      "topics": ["3.1"],
-      "skills": ["practical"],
-      "summary": "Name a labelled morphological feature on a fossil photograph."
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name a labelled morphological feature on a fossil photograph.",
+      "image": "img/2016-summer-gl1/q3ci.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q3ci.jpg"
     },
     {
       "id": "2016-summer-gl1-q3cii",
@@ -206,9 +384,18 @@
       "question": "3(c)(ii)",
       "marks": 2,
       "page": 11,
-      "topics": ["3.1"],
-      "skills": ["practical"],
-      "summary": "Identify the fossil group shown in the photographs and give a reason."
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Identify the fossil group shown in the photographs and give a reason.",
+      "image": "img/2016-summer-gl1/q3cii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q3cii.jpg"
     },
     {
       "id": "2016-summer-gl1-q3ciii",
@@ -216,9 +403,16 @@
       "question": "3(c)(iii)",
       "marks": 4,
       "page": 11,
-      "topics": ["3.1"],
+      "topics": [
+        "3.1"
+      ],
       "skills": [],
-      "summary": "Describe and explain the evidence for a life or death assemblage in a fossil photograph."
+      "summary": "Describe and explain the evidence for a life or death assemblage in a fossil photograph.",
+      "image": "img/2016-summer-gl1/q3ciii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q3ciii.jpg"
     },
     {
       "id": "2016-summer-gl1-q3d",
@@ -226,9 +420,16 @@
       "question": "3(d)",
       "marks": 2,
       "page": 11,
-      "topics": ["3.2"],
+      "topics": [
+        "3.2"
+      ],
       "skills": [],
-      "summary": "Assess how useful carbon-14 dating is for dating Quaternary plant fragments."
+      "summary": "Assess how useful carbon-14 dating is for dating Quaternary plant fragments.",
+      "image": "img/2016-summer-gl1/q3d.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q3d.jpg"
     },
     {
       "id": "2016-summer-gl1-q4ai",
@@ -236,9 +437,18 @@
       "question": "4(a)(i)",
       "marks": 2,
       "page": 12,
-      "topics": ["2.3"],
-      "skills": ["map"],
-      "summary": "Mark a fold axis and axial plane trace on a block diagram."
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Mark a fold axis and axial plane trace on a block diagram.",
+      "image": "img/2016-summer-gl1/q4ai.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q4ai.jpg"
     },
     {
       "id": "2016-summer-gl1-q4aii",
@@ -246,9 +456,18 @@
       "question": "4(a)(ii)",
       "marks": 2,
       "page": 12,
-      "topics": ["2.3"],
-      "skills": ["map"],
-      "summary": "Explain why a bed has a wider outcrop in one place than another on a block diagram."
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Explain why a bed has a wider outcrop in one place than another on a block diagram.",
+      "image": "img/2016-summer-gl1/q4aii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q4aii.jpg"
     },
     {
       "id": "2016-summer-gl1-q4aiii",
@@ -256,9 +475,18 @@
       "question": "4(a)(iii)",
       "marks": 1,
       "page": 12,
-      "topics": ["2.3"],
-      "skills": ["map"],
-      "summary": "Draw the geological boundaries on the east face of a block diagram."
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Draw the geological boundaries on the east face of a block diagram.",
+      "image": "img/2016-summer-gl1/q4aiii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q4aiii.jpg"
     },
     {
       "id": "2016-summer-gl1-q4b",
@@ -266,9 +494,18 @@
       "question": "4(b)",
       "marks": 4,
       "page": 13,
-      "topics": ["2.3"],
-      "skills": ["map"],
-      "summary": "Describe the nature of the folding shown in the block diagram."
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Describe the nature of the folding shown in the block diagram.",
+      "image": "img/2016-summer-gl1/q4b.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q4.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q4b.jpg"
     },
     {
       "id": "2016-summer-gl1-q4ci",
@@ -276,9 +513,16 @@
       "question": "4(c)(i)",
       "marks": 3,
       "page": 13,
-      "topics": ["2.1"],
+      "topics": [
+        "2.1"
+      ],
       "skills": [],
-      "summary": "Name the sedimentary structures in a photograph and explain how they formed."
+      "summary": "Name the sedimentary structures in a photograph and explain how they formed.",
+      "image": "img/2016-summer-gl1/q4ci.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q4ci.jpg"
     },
     {
       "id": "2016-summer-gl1-q4cii",
@@ -286,9 +530,18 @@
       "question": "4(c)(ii)",
       "marks": 2,
       "page": 13,
-      "topics": ["3.2", "2.1"],
+      "topics": [
+        "3.2",
+        "2.1"
+      ],
       "skills": [],
-      "summary": "Explain how the sedimentary structures can be used to establish the relative ages of the beds."
+      "summary": "Explain how the sedimentary structures can be used to establish the relative ages of the beds.",
+      "image": "img/2016-summer-gl1/q4cii.jpg",
+      "figures": [
+        "img/2016-summer-gl1/fig-q4.jpg",
+        "img/2016-summer-gl1/fig-q4c.jpg"
+      ],
+      "markscheme": "img/2016-summer-gl1/ms-q4cii.jpg"
     }
   ]
 }

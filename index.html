@@ -40,8 +40,10 @@ button:hover{background:#e8ece9}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
 .tag{font-size:.8rem;padding:2px 9px;border-radius:99px;border:1px solid var(--line);background:#f7f9f8}
 .tag i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:var(--c)}
-.links{display:flex;flex-wrap:wrap;gap:14px;font-size:.92rem}
-.links a{color:var(--focus);font-weight:600}
+.shot{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:4px;background:#fff}
+details{margin-top:10px}
+summary{cursor:pointer;font-weight:600;font-size:.92rem;color:var(--focus);padding:4px 0}
+details .shot{margin-top:6px}
 .err,.empty{background:#fff;border:1px solid var(--line);border-radius:6px;padding:16px}
 footer{margin-top:36px;font-size:.8rem;color:var(--muted);max-width:70ch}
 </style>
@@ -65,7 +67,7 @@ footer{margin-top:36px;font-size:.8rem;color:var(--muted);max-width:70ch}
 
 <main id="app" aria-live="polite"></main>
 
-<footer>An unofficial revision aid. Exam papers and mark schemes are © WJEC CBAC Ltd. Question summaries here are paraphrased, so use the links to read the original wording.</footer>
+<footer>An unofficial revision aid. Exam questions, figures, the mineral data sheet and mark schemes are © WJEC CBAC Ltd.</footer>
 </div>
 
 <script>
@@ -185,7 +187,9 @@ function card(x) {
     <div class="paper">${esc(p.series)} ${p.year}, ${esc(p.unit)} (${esc(p.code)}), printed page ${x.page}</div>
     <p>${esc(x.summary)}</p>
     <div class="tags">${tags}</div>
-    <div class="links"><a href="${esc(p.paper)}" target="_blank" rel="noopener">Question paper</a><a href="${esc(p.markscheme)}" target="_blank" rel="noopener">Mark scheme</a></div>
+    <img class="shot" loading="lazy" src="${esc(x.image)}" alt="Screenshot of question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper. ${esc(x.summary)}">
+    ${(x.figures || []).map(f => `<details><summary>${f.includes('datasheet') ? 'Mineral data sheet' : 'Figures for this question'}</summary><img class="shot" loading="lazy" src="${esc(f)}" alt="${f.includes('datasheet') ? 'Mineral data sheet from the 2016 paper' : 'Figures for question ' + esc(x.question) + ' from the ' + p.year + ' ' + esc(p.series) + ' paper'}"></details>`).join('')}
+    ${x.markscheme ? `<details><summary>Show mark scheme</summary><img class="shot" loading="lazy" src="${esc(x.markscheme)}" alt="Mark scheme for question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper"></details>` : ''}
   </article>`;
 }
 </script>
