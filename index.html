@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AS Geology past papers by topic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1e2a2f;--paper:#f3f5f2;--card:#fff;--line:#d3d9d4;--muted:#55645f;--focus:#0b6bcb;
+font-family:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding:28px 18px 56px}
+h1{font-size:clamp(1.7rem,4.5vw,2.4rem);line-height:1.15;margin:0 0 6px;letter-spacing:-.02em}
+.sub{margin:0 0 22px;color:var(--muted);max-width:60ch}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+form{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:22px}
+form .wide{grid-column:1/-1}
+label{display:flex;flex-direction:column;gap:3px;font-size:.82rem;font-weight:600;color:var(--muted)}
+input,select,button{font:inherit;color:var(--ink);padding:9px 10px;border:1px solid #9aa6a1;border-radius:6px;background:#fff}
+button{cursor:pointer;font-weight:600}
+button:hover{background:#e8ece9}
+.row{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap}
+.row button{flex:1 1 140px}
+.col{display:flex;flex-direction:column;border:2px solid var(--ink);border-radius:6px;overflow:hidden}
+.band{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;padding:12px 16px;text-decoration:none;background:var(--c);color:var(--fg);border-bottom:1px solid rgba(0,0,0,.25)}
+.band:last-child{border-bottom:0}
+.band:hover{filter:brightness(1.08)}
+.band b{font-size:1.05rem}
+.band span{font-size:.9rem}
+.note{color:var(--muted);font-size:.9rem;margin:14px 0 0;max-width:62ch}
+.count{font-weight:600;margin:0 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-left:8px solid var(--c);border-radius:6px;padding:14px 16px;margin-bottom:12px}
+.card h2{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:1.15rem;margin:0 0 4px}
+.card h2 small{font-size:.85rem;font-weight:600;color:var(--muted)}
+.card p{margin:0 0 10px}
+.paper{font-size:.85rem;color:var(--muted);margin-bottom:8px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.tag{font-size:.8rem;padding:2px 9px;border-radius:99px;border:1px solid var(--line);background:#f7f9f8}
+.tag i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:var(--c)}
+.links{display:flex;flex-wrap:wrap;gap:14px;font-size:.92rem}
+.links a{color:var(--focus);font-weight:600}
+.err,.empty{background:#fff;border:1px solid var(--line);border-radius:6px;padding:16px}
+footer{margin-top:36px;font-size:.8rem;color:var(--muted);max-width:70ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>AS Geology past papers, sorted by topic</h1>
+<p class="sub">WJEC Eduqas AS Geology questions grouped by the topics in the specification. Pick a topic, or search for a keyword.</p>
+
+<form id="f" role="search">
+  <label class="wide">Search<input id="q" type="search" placeholder="e.g. fold, P waves, fossils"></label>
+  <label>Topic<select id="topic"></select></label>
+  <label>Year<select id="year"></select></label>
+  <label>Skill<select id="skill"></select></label>
+  <label>Marks<select id="min"></select></label>
+  <div class="row wide">
+    <button type="button" id="random">Random question</button>
+    <button type="button" id="reset">Clear filters</button>
+  </div>
+</form>
+
+<main id="app" aria-live="polite"></main>
+
+<footer>An unofficial revision aid. Exam papers and mark schemes are © WJEC CBAC Ltd. Question summaries here are paraphrased, so use the links to read the original wording.</footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const COL = {
+  '1.1':['#7a5c47','#fff'], '2.1':['#d2ae63','#1e2a2f'], '2.2':['#a4524a','#fff'], '2.3':['#5e7a6b','#fff'],
+  '3.1':['#a3b46a','#1e2a2f'], '3.2':['#4f7391','#fff'], '4.1':['#3f4e63','#fff'], '4.2':['#6b4f7a','#fff']
+};
+let D, T = {}, S = {}, state = {topic:'',skill:'',year:'',min:0,q:'',pick:''};
+
+fetch('questions.json').then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => {
+  D = d;
+  D.P = Object.fromEntries(d.papers.map(p => [p.id, p]));
+  d.topics.forEach(t => T[t.id] = t);
+  d.skills.forEach(s => S[s.id] = s);
+  d.questions.forEach((x, i) => x.i = i);
+  init();
+}).catch(() => {
+  $('#app').innerHTML = '<p class="err">Couldn’t load questions.json. Check that it sits in the same folder as index.html. If you opened this file straight from your computer, view the site through GitHub Pages or a local server instead.</p>';
+});
+
+function opts(sel, first, items) {
+  $(sel).innerHTML = '<option value="">' + first + '</option>' + items.map(([v, l]) => `<option value="${esc(v)}">${esc(l)}</option>`).join('');
+}
+
+function init() {
+  opts('#topic', 'All topics', D.topics.map(t => [t.id, t.id + ' ' + t.name]));
+  opts('#skill', 'All skills', D.skills.map(s => [s.id, s.name]));
+  const years = [...new Set(D.papers.map(p => p.year))].sort((a, b) => b - a);
+  opts('#year', 'All years', years.map(y => [y, y]));
+  opts('#min', 'Any marks', [[2, '2+ marks'], [3, '3+ marks'], [4, '4+ marks']]);
+  $('#f').addEventListener('input', onInput);
+  $('#f').addEventListener('submit', e => e.preventDefault());
+  $('#reset').onclick = () => { state = {topic:'',skill:'',year:'',min:0,q:'',pick:''}; syncControls(); toHash(); render(); };
+  $('#random').onclick = () => {
+    const keep = state.pick; state.pick = '';
+    const pool = filtered(); state.pick = keep;
+    if (!pool.length) return;
+    state.pick = pool[Math.floor(Math.random() * pool.length)].id;
+    toHash(); render();
+  };
+  addEventListener('hashchange', () => { fromHash(); syncControls(); render(); });
+  fromHash(); syncControls(); render();
+}
+
+function onInput() {
+  state.q = $('#q').value.trim();
+  state.topic = $('#topic').value;
+  state.skill = $('#skill').value;
+  state.year = $('#year').value;
+  state.min = +$('#min').value || 0;
+  state.pick = '';
+  toHash(); render();
+}
+
+function syncControls() {
+  $('#q').value = state.q; $('#topic').value = state.topic; $('#skill').value = state.skill;
+  $('#year').value = state.year; $('#min').value = state.min || '';
+}
+
+function fromHash() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  state = {topic:p.get('topic')||'', skill:p.get('skill')||'', year:p.get('year')||'', min:+p.get('min')||0, q:p.get('q')||'', pick:p.get('pick')||''};
+}
+
+function toHash() {
+  const p = new URLSearchParams();
+  ['topic','skill','year','min','q','pick'].forEach(k => { if (state[k]) p.set(k, state[k]); });
+  history.replaceState(null, '', location.pathname + location.search + (p.toString() ? '#' + p : ''));
+}
+
+function filtered() {
+  const q = state.q.toLowerCase();
+  return D.questions.filter(x =>
+    (!state.pick || x.id === state.pick) &&
+    (!state.topic || x.topics.includes(state.topic)) &&
+    (!state.skill || x.skills.includes(state.skill)) &&
+    (!state.year || D.P[x.paper].year == state.year) &&
+    x.marks >= state.min &&
+    (!q || (x.summary + ' ' + x.question + ' ' + x.topics.map(t => T[t].name).join(' ') + ' ' + x.skills.map(s => S[s].name).join(' ')).toLowerCase().includes(q))
+  ).sort((a, b) => D.P[b.paper].year - D.P[a.paper].year || a.i - b.i);
+}
+
+function render() {
+  const active = state.topic || state.skill || state.year || state.min || state.q || state.pick;
+  $('#app').innerHTML = active ? results() : home();
+}
+
+function home() {
+  const bands = D.topics.map(t => {
+    const qs = D.questions.filter(x => x.topics.includes(t.id));
+    const marks = qs.reduce((n, x) => n + x.marks, 0);
+    const [c, fg] = COL[t.id] || ['#777', '#fff'];
+    return `<a class="band" href="#topic=${t.id}" style="--c:${c};--fg:${fg};min-height:${52 + marks * 3}px">
+      <b>${esc(t.id)} ${esc(t.name)}</b><span>${qs.length} ${qs.length === 1 ? 'question' : 'questions'}, ${marks} marks</span></a>`;
+  }).join('');
+  return `<div class="col" role="list" aria-label="Specification topics">${bands}</div>
+    <p class="note">Each layer is a topic from the specification, and thicker layers have more marks of past paper questions. Select one to see its questions. A question that tests two topics appears in both.</p>`;
+}
+
+function results() {
+  const list = filtered();
+  const head = state.pick ? '<p class="count">One random question. <a href="#">Show all</a></p>'
+    : `<p class="count">${list.length} ${list.length === 1 ? 'question' : 'questions'}, ${list.reduce((n, x) => n + x.marks, 0)} marks</p>`;
+  if (!list.length) return head + '<div class="empty"><p>No questions match these filters. Remove a filter or try a different keyword.</p></div>';
+  return head + list.map(card).join('');
+}
+
+function card(x) {
+  const p = D.P[x.paper];
+  const [c] = COL[x.topics[0]] || ['#777'];
+  const tags = x.topics.map(t => `<a class="tag" style="--c:${(COL[t]||['#777'])[0]};text-decoration:none;color:inherit" href="#topic=${t}"><i></i>${esc(t)} ${esc(T[t].name)}</a>`).join('')
+    + x.skills.map(s => `<span class="tag" style="--c:#9aa6a1"><i></i>${esc(S[s].name)}</span>`).join('');
+  return `<article class="card" style="--c:${c}">
+    <h2>Question ${esc(x.question)} <small>${x.marks} ${x.marks === 1 ? 'mark' : 'marks'}</small></h2>
+    <div class="paper">${esc(p.series)} ${p.year}, ${esc(p.unit)} (${esc(p.code)}), printed page ${x.page}</div>
+    <p>${esc(x.summary)}</p>
+    <div class="tags">${tags}</div>
+    <div class="links"><a href="${esc(p.paper)}" target="_blank" rel="noopener">Question paper</a><a href="${esc(p.markscheme)}" target="_blank" rel="noopener">Mark scheme</a></div>
+  </article>`;
+}
+</script>
+</body>
+</html>
