@@ -186,7 +186,7 @@ function card(x) {
   return `<article class="card" style="--c:${c}">
     <h2>Question ${esc(x.question)} <small>${x.marks} ${x.marks === 1 ? 'mark' : 'marks'}</small></h2>
     <div class="paper">${esc(p.series)} ${p.year}, ${esc(p.unit)} (${esc(p.code)}), printed page ${x.page}</div>
-    ${p.resourcesNote ? `<p class="resource">${esc(p.resourcesNote)}</p>` : ''}
+    ${p.resourcesNote ? `<p class="resource">${esc(p.resourcesNote)}${(p.resources || []).map(r => `<br><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>`).join('')}</p>` : ''}
     <p>${esc(x.summary)}</p>
     <div class="tags">${tags}</div>
     <img class="shot" loading="lazy" src="${esc(x.image)}" alt="Screenshot of question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper. ${esc(x.summary)}">

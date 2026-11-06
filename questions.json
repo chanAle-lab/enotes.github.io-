@@ -102,7 +102,17 @@
       "spec": "current",
       "totalMarks": 60,
       "duration": "1 hour 30 minutes",
-      "resourcesNote": "Missing from this upload: the separate Resource Sheet (including Map 1 and Photograph 1), Photographs of Specimens Sheet, specimens B/C/L/N, and Mineral Data Sheet."
+      "resourcesNote": "The linked Resource Sheet and Mineral Data Sheet are available below. The paper also requires the Photographs of Specimens Sheet and physical specimens B/C/L/N; these were not provided here.",
+      "resources": [
+        {
+          "label": "Summer 2023 Component 1 Resource Sheet",
+          "url": "https://pastpapers.download.wjec.co.uk/S23/s23-B480U10-1A.pdf"
+        },
+        {
+          "label": "Mineral Data Sheet (GL1/GL2)",
+          "url": "https://resource.download.wjec.co.uk/vtc/2008-09/geology/geology_website/wjec/wjec_examination_guidance_materials/mineral_data_sheet_gl1_gl2.pdf"
+        }
+      ]
     }
   ],
   "questions": [
