@@ -31,6 +31,7 @@ button:hover{background:#e8ece9}
 .band b{font-size:1.05rem}
 .band span{font-size:.9rem}
 .note{color:var(--muted);font-size:.9rem;margin:14px 0 0;max-width:62ch}
+.resource{background:#fff8e5;border-left:3px solid #b98222;padding:8px 10px;font-size:.82rem;margin:8px 0}
 .count{font-weight:600;margin:0 0 12px}
 .card{background:var(--card);border:1px solid var(--line);border-left:8px solid var(--c);border-radius:6px;padding:14px 16px;margin-bottom:12px}
 .card h2{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:1.15rem;margin:0 0 4px}
@@ -185,6 +186,7 @@ function card(x) {
   return `<article class="card" style="--c:${c}">
     <h2>Question ${esc(x.question)} <small>${x.marks} ${x.marks === 1 ? 'mark' : 'marks'}</small></h2>
     <div class="paper">${esc(p.series)} ${p.year}, ${esc(p.unit)} (${esc(p.code)}), printed page ${x.page}</div>
+    ${p.resourcesNote ? `<p class="resource">${esc(p.resourcesNote)}</p>` : ''}
     <p>${esc(x.summary)}</p>
     <div class="tags">${tags}</div>
     <img class="shot" loading="lazy" src="${esc(x.image)}" alt="Screenshot of question ${esc(x.question)} from the ${p.year} ${esc(p.series)} paper. ${esc(x.summary)}">
