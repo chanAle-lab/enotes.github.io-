@@ -102,7 +102,7 @@
       "spec": "current",
       "totalMarks": 60,
       "duration": "1 hour 30 minutes",
-      "resourcesNote": "The linked Resource Sheet and Mineral Data Sheet are available below. The paper also requires the Photographs of Specimens Sheet and physical specimens B/C/L/N; these were not provided here.",
+      "resourcesNote": "The separate Photographs of Specimens Sheet (1P) was not supplied. Cards that need a physical sample are marked below.",
       "resources": [
         {
           "label": "Summer 2023 Component 1 Resource Sheet",
@@ -2090,8 +2090,11 @@
       ],
       "summary": "Draw the texture of Specimen C to scale.",
       "image": "img/2023-summer-as-geology-component-1/q1ai.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1ai.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1ai.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q1aii",
@@ -2108,8 +2111,11 @@
       ],
       "summary": "Identify Specimen C, an example of Rock Unit C.",
       "image": "img/2023-summer-as-geology-component-1/q1aii.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1aii.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1aii.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q1b",
@@ -2123,8 +2129,11 @@
       "skills": [],
       "summary": "Describe the depositional environment of Specimen C.",
       "image": "img/2023-summer-as-geology-component-1/q1b.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1b.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q1b.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q2a",
@@ -2141,8 +2150,11 @@
       ],
       "summary": "Identify Specimen B and give two pieces of evidence.",
       "image": "img/2023-summer-as-geology-component-1/q2a.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q2a.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q2a.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q2b",
@@ -2159,8 +2171,12 @@
       ],
       "summary": "Evaluate whether Rock Units A and B formed in the same intrusive event, using the specimen, photograph and map.",
       "image": "img/2023-summer-as-geology-component-1/q2b.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q2b.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
+        "img/2023-summer-as-geology-component-1/fig-photograph1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q2b.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q3ai",
@@ -2176,8 +2192,11 @@
       ],
       "summary": "Draw the internal view of Specimen L to scale.",
       "image": "img/2023-summer-as-geology-component-1/q3ai.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3ai.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3ai.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q3aii",
@@ -2194,9 +2213,11 @@
       "summary": "Label a muscle scar on Figure 3a.",
       "image": "img/2023-summer-as-geology-component-1/q3aii.jpg",
       "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
         "img/2023-summer-as-geology-component-1/fig-q3a.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3aii.jpg"
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3aii.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q3aiii",
@@ -2213,9 +2234,11 @@
       "summary": "Label the pallial sinus on Figure 3a.",
       "image": "img/2023-summer-as-geology-component-1/q3aiii.jpg",
       "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
         "img/2023-summer-as-geology-component-1/fig-q3a.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3aiii.jpg"
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3aiii.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q3bi",
@@ -2232,9 +2255,11 @@
       "summary": "Draw a histogram of the bivalve fossil lengths.",
       "image": "img/2023-summer-as-geology-component-1/q3bi.jpg",
       "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
         "img/2023-summer-as-geology-component-1/fig-q3-table.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3bi.jpg"
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3bi.jpg",
+      "needsPhysicalSpecimen": false
     },
     {
       "id": "2023-summer-as-geology-component-1-q3bii",
@@ -2251,9 +2276,11 @@
       "summary": "State the modal group for the bivalve fossil lengths.",
       "image": "img/2023-summer-as-geology-component-1/q3bii.jpg",
       "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
         "img/2023-summer-as-geology-component-1/fig-q3-table.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3bii.jpg"
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3bii.jpg",
+      "needsPhysicalSpecimen": false
     },
     {
       "id": "2023-summer-as-geology-component-1-q3biii",
@@ -2270,9 +2297,11 @@
       "summary": "Evaluate the reliability of the conclusion that the fossils form a life assemblage.",
       "image": "img/2023-summer-as-geology-component-1/q3biii.jpg",
       "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
         "img/2023-summer-as-geology-component-1/fig-q3-table.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3biii.jpg"
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q3biii.jpg",
+      "needsPhysicalSpecimen": false
     },
     {
       "id": "2023-summer-as-geology-component-1-q4a",
@@ -2288,8 +2317,11 @@
       ],
       "summary": "Describe the diagnostic tests for Specimen N and their results.",
       "image": "img/2023-summer-as-geology-component-1/q4a.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q4a.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q4a.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q4b",
@@ -2305,8 +2337,11 @@
       ],
       "summary": "Identify Specimen N.",
       "image": "img/2023-summer-as-geology-component-1/q4b.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q4b.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q4b.jpg",
+      "needsPhysicalSpecimen": true
     },
     {
       "id": "2023-summer-as-geology-component-1-q5a",
@@ -2323,9 +2358,11 @@
       "summary": "Describe how mean crystal size changes along transect P–Q.",
       "image": "img/2023-summer-as-geology-component-1/q5a.jpg",
       "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
         "img/2023-summer-as-geology-component-1/fig-q5.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5a.jpg"
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5a.jpg",
+      "needsPhysicalSpecimen": false
     },
     {
       "id": "2023-summer-as-geology-component-1-q5b",
@@ -2342,9 +2379,11 @@
       "summary": "Explain how the crystal-size data may have been collected, referring to sampling methods.",
       "image": "img/2023-summer-as-geology-component-1/q5b.jpg",
       "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
         "img/2023-summer-as-geology-component-1/fig-q5.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5b.jpg"
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5b.jpg",
+      "needsPhysicalSpecimen": false
     },
     {
       "id": "2023-summer-as-geology-component-1-q5c",
@@ -2362,9 +2401,11 @@
       "summary": "Explain crystal-size changes along transect P–Q using Figure 5 and Map 1.",
       "image": "img/2023-summer-as-geology-component-1/q5c.jpg",
       "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg",
         "img/2023-summer-as-geology-component-1/fig-q5.jpg"
       ],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5c.jpg"
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q5c.jpg",
+      "needsPhysicalSpecimen": false
     },
     {
       "id": "2023-summer-as-geology-component-1-q6a",
@@ -2380,8 +2421,11 @@
       ],
       "summary": "Compare Faults F1 and F2 using the table.",
       "image": "img/2023-summer-as-geology-component-1/q6a.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q6a.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q6a.jpg",
+      "needsPhysicalSpecimen": false
     },
     {
       "id": "2023-summer-as-geology-component-1-q6b",
@@ -2398,8 +2442,11 @@
       ],
       "summary": "Calculate the displacement of Fault F2.",
       "image": "img/2023-summer-as-geology-component-1/q6b.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q6b.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q6b.jpg",
+      "needsPhysicalSpecimen": false
     },
     {
       "id": "2023-summer-as-geology-component-1-q7",
@@ -2417,8 +2464,11 @@
       ],
       "summary": "Complete the geological cross-section using the topographic profile and Map 1; show rock units, structures and cross-cutting relationships.",
       "image": "img/2023-summer-as-geology-component-1/q7.jpg",
-      "figures": [],
-      "markscheme": "img/2023-summer-as-geology-component-1/ms-q7.jpg"
+      "figures": [
+        "img/2023-summer-as-geology-component-1/fig-map1.jpg"
+      ],
+      "markscheme": "img/2023-summer-as-geology-component-1/ms-q7.jpg",
+      "needsPhysicalSpecimen": false
     }
   ]
 }
