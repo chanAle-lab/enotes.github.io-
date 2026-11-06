@@ -80,6 +80,17 @@
       "spec": "legacy",
       "totalMarks": 60,
       "duration": "1 hour"
+    },
+    {
+      "id": "2019-summer-gl1",
+      "year": 2019,
+      "series": "Summer",
+      "date": "2019-05-13",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
     }
   ],
   "questions": [
@@ -1590,6 +1601,458 @@
         "img/2018-summer-gl1/fig-q4b.jpg"
       ],
       "markscheme": "img/2018-summer-gl1/ms-q4bv.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q1ai",
+      "paper": "2019-summer-gl1",
+      "question": "1(a)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the dip direction and angle of dip of the older beds on a cliff cross-section.",
+      "image": "img/2019-summer-gl1/q1ai.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q1aii",
+      "paper": "2019-summer-gl1",
+      "question": "1(a)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.3",
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Mark and label a Mesozoic rock and an unconformity on the cross-section.",
+      "image": "img/2019-summer-gl1/q1aii.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-gl1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q1aiii",
+      "paper": "2019-summer-gl1",
+      "question": "1(a)(iii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.2",
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Suggest a name for a mafic igneous rock and a geological period when it most likely formed.",
+      "image": "img/2019-summer-gl1/q1aiii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q1aiii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q1bi",
+      "paper": "2019-summer-gl1",
+      "question": "1(b)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "State the half-life of a radioactive element from a decay curve.",
+      "image": "img/2019-summer-gl1/q1bi.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q1bii",
+      "paper": "2019-summer-gl1",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Use the decay curve to find the age of a rock from its parent and daughter atom percentages.",
+      "image": "img/2019-summer-gl1/q1bii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q1biii",
+      "paper": "2019-summer-gl1",
+      "question": "1(b)(iii)",
+      "marks": 2,
+      "page": 3,
+      "topics": [
+        "3.2",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain why the radiometric age calculated for the rock is a minimum age.",
+      "image": "img/2019-summer-gl1/q1biii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q1biii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q1c",
+      "paper": "2019-summer-gl1",
+      "question": "1(c)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Critically evaluate a student’s conclusion that the igneous rock on the cross-section is a dyke.",
+      "image": "img/2019-summer-gl1/q1c.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q1c.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q2ai",
+      "paper": "2019-summer-gl1",
+      "question": "2(a)(i)",
+      "marks": 3,
+      "page": 6,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Describe the pattern of joints in a photograph of an igneous outcrop.",
+      "image": "img/2019-summer-gl1/q2ai.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q2ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q2aii",
+      "paper": "2019-summer-gl1",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [],
+      "summary": "Explain how the joints in the igneous rock may have formed.",
+      "image": "img/2019-summer-gl1/q2aii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q2aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q2aiii",
+      "paper": "2019-summer-gl1",
+      "question": "2(a)(iii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [],
+      "summary": "Name and describe one weathering process that might occur at the outcrop.",
+      "image": "img/2019-summer-gl1/q2aiii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q2aiii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q2bi",
+      "paper": "2019-summer-gl1",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name a labelled mineral in a hand specimen of the igneous rock, using the mineral data sheet.",
+      "image": "img/2019-summer-gl1/q2bi.jpg",
+      "figures": [
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q2bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q2bii",
+      "paper": "2019-summer-gl1",
+      "question": "2(b)(ii)",
+      "marks": 4,
+      "page": 8,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the texture of the igneous rock in the hand specimen.",
+      "image": "img/2019-summer-gl1/q2bii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q2bii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q2biii",
+      "paper": "2019-summer-gl1",
+      "question": "2(b)(iii)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain how the texture of the igneous rock may have formed.",
+      "image": "img/2019-summer-gl1/q2biii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q2b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q2biii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q3ai",
+      "paper": "2019-summer-gl1",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Identify the type of plate boundary at each of three boundaries on a map of South East Asia.",
+      "image": "img/2019-summer-gl1/q3ai.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q3aii",
+      "paper": "2019-summer-gl1",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Mark and label an island arc and a transform fault on the plate boundary map.",
+      "image": "img/2019-summer-gl1/q3aii.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-gl1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q3bi",
+      "paper": "2019-summer-gl1",
+      "question": "3(b)(i)",
+      "marks": 3,
+      "page": 11,
+      "topics": [
+        "4.2",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain why a continental collision boundary has no volcanic activity.",
+      "image": "img/2019-summer-gl1/q3bi.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q3bii",
+      "paper": "2019-summer-gl1",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "page": 11,
+      "topics": [
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Explain the origin of shallow focus earthquakes at a divergent boundary.",
+      "image": "img/2019-summer-gl1/q3bii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q3biii",
+      "paper": "2019-summer-gl1",
+      "question": "3(b)(iii)",
+      "marks": 4,
+      "page": 11,
+      "topics": [
+        "2.2",
+        "4.2"
+      ],
+      "skills": [],
+      "summary": "Describe and explain why volcanoes are explosive at one boundary but less explosive at another.",
+      "image": "img/2019-summer-gl1/q3biii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q3biii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q4ai",
+      "paper": "2019-summer-gl1",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw the planes of bilateral symmetry on a bivalve and a brachiopod photograph.",
+      "image": "img/2019-summer-gl1/q4ai.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-gl1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q4aii",
+      "paper": "2019-summer-gl1",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the fossil groups represented by the two fossils.",
+      "image": "img/2019-summer-gl1/q4aii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q4aiii",
+      "paper": "2019-summer-gl1",
+      "question": "4(a)(iii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name two morphological features labelled on the fossils.",
+      "image": "img/2019-summer-gl1/q4aiii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q4bi",
+      "paper": "2019-summer-gl1",
+      "question": "4(b)(i)",
+      "marks": 3,
+      "page": 13,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Describe the evolutionary history of brachiopods over 500 million years from a graph of genera.",
+      "image": "img/2019-summer-gl1/q4bi.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q4bii",
+      "paper": "2019-summer-gl1",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "State two differences between the evolutionary trends of bivalves and brachiopods.",
+      "image": "img/2019-summer-gl1/q4bii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q4biii",
+      "paper": "2019-summer-gl1",
+      "question": "4(b)(iii)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "3.1",
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name the mineral that has replaced a fossil shell and explain why the fossil is now made of it.",
+      "image": "img/2019-summer-gl1/q4biii.jpg",
+      "figures": [
+        "img/2019-summer-gl1/fig-q4a.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2019-summer-gl1/ms-q4biii.jpg"
+    },
+    {
+      "id": "2019-summer-gl1-q4biv",
+      "paper": "2019-summer-gl1",
+      "question": "4(b)(iv)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Explain why bivalve and brachiopod fossils are often found in large numbers in sedimentary rocks.",
+      "image": "img/2019-summer-gl1/q4biv.jpg",
+      "figures": [],
+      "markscheme": "img/2019-summer-gl1/ms-q4biv.jpg"
     }
   ]
 }
