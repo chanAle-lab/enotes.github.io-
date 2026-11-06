@@ -69,6 +69,17 @@
       "spec": "legacy",
       "totalMarks": 60,
       "duration": "1 hour"
+    },
+    {
+      "id": "2018-summer-gl1",
+      "year": 2018,
+      "series": "Summer",
+      "date": "2018-05-14",
+      "code": "1211/01",
+      "unit": "GL1 Foundation Unit",
+      "spec": "legacy",
+      "totalMarks": 60,
+      "duration": "1 hour"
     }
   ],
   "questions": [
@@ -1049,6 +1060,536 @@
         "img/2017-summer-gl1/fig-q4.jpg"
       ],
       "markscheme": "img/2017-summer-gl1/ms-q4d.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q1ai",
+      "paper": "2018-summer-gl1",
+      "question": "1(a)(i)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the name of the oldest rock shown on a coastal geological map.",
+      "image": "img/2018-summer-gl1/q1ai.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q1ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q1aii",
+      "paper": "2018-summer-gl1",
+      "question": "1(a)(ii)",
+      "marks": 1,
+      "page": 2,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the trend (strike) of an igneous body shown on the map.",
+      "image": "img/2018-summer-gl1/q1aii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q1aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q1bi",
+      "paper": "2018-summer-gl1",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Plot a line graph of crystal size against distance across an igneous body from a table of data.",
+      "image": "img/2018-summer-gl1/q1bi.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q1.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q1bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q1bii",
+      "paper": "2018-summer-gl1",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "page": 2,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain the variation in crystal size between the two edges of the igneous body.",
+      "image": "img/2018-summer-gl1/q1bii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q1.jpg",
+        "img/2018-summer-gl1/fig-q1b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q1bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q1ci",
+      "paper": "2018-summer-gl1",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "page": 3,
+      "topics": [
+        "1.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name a mineral in a photograph of the igneous rock from its properties, using the mineral data sheet.",
+      "image": "img/2018-summer-gl1/q1ci.jpg",
+      "figures": [
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q1ci.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q1cii",
+      "paper": "2018-summer-gl1",
+      "question": "1(c)(ii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe the texture of the igneous rock in the photograph.",
+      "image": "img/2018-summer-gl1/q1cii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q1cii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q1ciii",
+      "paper": "2018-summer-gl1",
+      "question": "1(c)(iii)",
+      "marks": 2,
+      "page": 4,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain how the texture of the igneous rock may have formed.",
+      "image": "img/2018-summer-gl1/q1ciii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q1ciii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q1civ",
+      "paper": "2018-summer-gl1",
+      "question": "1(c)(iv)",
+      "marks": 4,
+      "page": 4,
+      "topics": [
+        "2.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Evaluate a student’s conclusion that the igneous body is a dyke, using the map, graph and photograph.",
+      "image": "img/2018-summer-gl1/q1civ.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q1.jpg",
+        "img/2018-summer-gl1/fig-q1b.jpg",
+        "img/2018-summer-gl1/fig-q1d.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q1civ.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q2a",
+      "paper": "2018-summer-gl1",
+      "question": "2(a)",
+      "marks": 2,
+      "page": 6,
+      "topics": [
+        "3.2",
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Describe two pieces of evidence from a cliff section showing that the beds are the correct way up.",
+      "image": "img/2018-summer-gl1/q2a.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q2a.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q2b",
+      "paper": "2018-summer-gl1",
+      "question": "2(b)",
+      "marks": 4,
+      "page": 6,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Complete a table of fold characteristics (dip direction and angle of axes, axial plane strike, symmetry).",
+      "image": "img/2018-summer-gl1/q2b.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q2b.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q2ci",
+      "paper": "2018-summer-gl1",
+      "question": "2(c)(i)",
+      "marks": 2,
+      "page": 7,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "Name the type of a dip-slip fault shown on the section and give a reason.",
+      "image": "img/2018-summer-gl1/q2ci.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q2ci.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q2cii",
+      "paper": "2018-summer-gl1",
+      "question": "2(c)(ii)",
+      "marks": 3,
+      "page": 7,
+      "topics": [
+        "2.3"
+      ],
+      "skills": [
+        "map",
+        "maths"
+      ],
+      "summary": "Measure the vertical and horizontal displacement across the fault and state the type of tectonic stress.",
+      "image": "img/2018-summer-gl1/q2cii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q2cii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q2d",
+      "paper": "2018-summer-gl1",
+      "question": "2(d)",
+      "marks": 4,
+      "page": 7,
+      "topics": [
+        "2.1",
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Describe the evidence for a change in the energy of the depositional environment across the sequence.",
+      "image": "img/2018-summer-gl1/q2d.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q2.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q2d.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q3ai",
+      "paper": "2018-summer-gl1",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "page": 8,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State what is meant by relative age.",
+      "image": "img/2018-summer-gl1/q3ai.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q3ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q3aii",
+      "paper": "2018-summer-gl1",
+      "question": "3(a)(ii)",
+      "marks": 3,
+      "page": 8,
+      "topics": [
+        "3.2",
+        "2.2"
+      ],
+      "skills": [
+        "map"
+      ],
+      "summary": "State the relative age of a gabbro intrusion shown on a cross-section and explain the answer.",
+      "image": "img/2018-summer-gl1/q3aii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q3aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q3aiii",
+      "paper": "2018-summer-gl1",
+      "question": "3(a)(iii)",
+      "marks": 2,
+      "page": 8,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Identify the geological periods that make up the Mesozoic Era (tick-box list).",
+      "image": "img/2018-summer-gl1/q3aiii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q3aiii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q3bi",
+      "paper": "2018-summer-gl1",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State what is meant by a half-life.",
+      "image": "img/2018-summer-gl1/q3bi.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-gl1/ms-q3bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q3bii",
+      "paper": "2018-summer-gl1",
+      "question": "3(b)(ii)",
+      "marks": 1,
+      "page": 9,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Complete a table showing the percentage of parent and daughter isotopes after two half-lives.",
+      "image": "img/2018-summer-gl1/q3bii.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-gl1/ms-q3bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q3biii",
+      "paper": "2018-summer-gl1",
+      "question": "3(b)(iii)",
+      "marks": 2,
+      "page": 9,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the absolute age of a schist from its percentage of remaining potassium-40 and the half-life.",
+      "image": "img/2018-summer-gl1/q3biii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q3biii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q3biv",
+      "paper": "2018-summer-gl1",
+      "question": "3(b)(iv)",
+      "marks": 3,
+      "page": 9,
+      "topics": [
+        "3.2",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Explain how and why the absolute age of the schist might differ at two localities on the cross-section.",
+      "image": "img/2018-summer-gl1/q3biv.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q3biv.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q3c",
+      "paper": "2018-summer-gl1",
+      "question": "3(c)",
+      "marks": 3,
+      "page": 10,
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Evaluate how useful carbon-14 dating is for dating the other rock units in the cross-section.",
+      "image": "img/2018-summer-gl1/q3c.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q3.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q3c.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q4ai",
+      "paper": "2018-summer-gl1",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "page": 12,
+      "topics": [
+        "2.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "State the maximum depth and temperature at which sedimentary processes occur, from a pressure-temperature graph.",
+      "image": "img/2018-summer-gl1/q4ai.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-gl1/ms-q4ai.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q4aii",
+      "paper": "2018-summer-gl1",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Complete a pressure-temperature diagram by placing igneous, contact metamorphism and regional metamorphism labels.",
+      "image": "img/2018-summer-gl1/q4aii.jpg",
+      "figures": [],
+      "markscheme": "img/2018-summer-gl1/ms-q4aii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q4aiii",
+      "paper": "2018-summer-gl1",
+      "question": "4(a)(iii)",
+      "marks": 2,
+      "page": 12,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Suggest two factors that control the temperature at which metamorphic rocks begin to melt.",
+      "image": "img/2018-summer-gl1/q4aiii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q4aiii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q4bi",
+      "paper": "2018-summer-gl1",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "1.1",
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Name two minerals in metamorphic rock photographs from their properties, using the mineral data sheet.",
+      "image": "img/2018-summer-gl1/q4bi.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q4b.jpg",
+        "img/2016-summer-gl1/datasheet.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q4bi.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q4bii",
+      "paper": "2018-summer-gl1",
+      "question": "4(b)(ii)",
+      "marks": 1,
+      "page": 13,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Suggest the common parent rock that was metamorphosed to form the two rocks.",
+      "image": "img/2018-summer-gl1/q4bii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q4bii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q4biii",
+      "paper": "2018-summer-gl1",
+      "question": "4(b)(iii)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe two differences in texture between the two metamorphic rocks.",
+      "image": "img/2018-summer-gl1/q4biii.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q4biii.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q4biv",
+      "paper": "2018-summer-gl1",
+      "question": "4(b)(iv)",
+      "marks": 2,
+      "page": 13,
+      "topics": [
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Complete a table matching each metamorphic rock to its letter on the pressure-temperature diagram.",
+      "image": "img/2018-summer-gl1/q4biv.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q4b.jpg",
+        "img/2018-summer-gl1/fig-q4a.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q4biv.jpg"
+    },
+    {
+      "id": "2018-summer-gl1-q4bv",
+      "paper": "2018-summer-gl1",
+      "question": "4(b)(v)",
+      "marks": 3,
+      "page": 14,
+      "topics": [
+        "4.2",
+        "2.2"
+      ],
+      "skills": [],
+      "summary": "Describe and explain the plate tectonic setting in which one of the metamorphic rocks formed.",
+      "image": "img/2018-summer-gl1/q4bv.jpg",
+      "figures": [
+        "img/2018-summer-gl1/fig-q4b.jpg"
+      ],
+      "markscheme": "img/2018-summer-gl1/ms-q4bv.jpg"
     }
   ]
 }
